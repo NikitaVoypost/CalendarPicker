@@ -245,33 +245,33 @@ export default class DaysGridView extends Component {
   }
 }
 
-DaysGridView.propTypes = {
-  styles: PropTypes.shape(),
-  month: PropTypes.number.isRequired,
-  year: PropTypes.number.isRequired,
-  onPressDay: PropTypes.func,
-  startFromMonday: PropTypes.bool,
-  selectedDayStyle: PropTypes.oneOfType([PropTypes.undefined, ViewPropTypes.style]),
-  selectedRangeStartStyle: PropTypes.oneOfType([PropTypes.undefined, ViewPropTypes.style]),
-  selectedRangeStyle: PropTypes.oneOfType([PropTypes.undefined, ViewPropTypes.style]),
-  selectedRangeEndStyle: PropTypes.oneOfType([PropTypes.undefined, ViewPropTypes.style]),
-  todayTextStyle: Text.propTypes.style,
-  selectedDayTextStyle: Text.propTypes.style,
-  customDatesStyles: PropTypes.oneOfType([
-    PropTypes.func,
-    PropTypes.arrayOf(PropTypes.shape({
-      date: PropTypes.oneOfType([
-        PropTypes.string,
-        PropTypes.instanceOf(Date),
-        PropTypes.instanceOf(moment)
-      ]),
-      containerStyle: ViewPropTypes,
-      style: ViewPropTypes,
-      textStyle: Text.propTypes.style,
-    })),
-  ]),
-  disabledDates: PropTypes.oneOfType([PropTypes.array, PropTypes.func]),
-  disabledDatesTextStyle: Text.propTypes.style,
-  minRangeDuration: PropTypes.oneOfType([PropTypes.array, PropTypes.number]),
-  maxRangeDuration: PropTypes.oneOfType([PropTypes.array, PropTypes.number]),
-};
+// DaysGridView.propTypes = {
+//   styles: PropTypes.shape(),
+//   month: PropTypes.number.isRequired,
+//   year: PropTypes.number.isRequired,
+//   onPressDay: PropTypes.func,
+//   startFromMonday: PropTypes.bool,
+//   selectedDayStyle: PropTypes.oneOfType([PropTypes.undefined, ViewPropTypes.style]),
+//   selectedRangeStartStyle: PropTypes.oneOfType([PropTypes.undefined, ViewPropTypes.style]),
+//   selectedRangeStyle: PropTypes.oneOfType([PropTypes.undefined, ViewPropTypes.style]),
+//   selectedRangeEndStyle: PropTypes.oneOfType([PropTypes.undefined, ViewPropTypes.style]),
+//   todayTextStyle: Text.propTypes.style,
+//   selectedDayTextStyle: Text.propTypes.style,
+//   customDatesStyles: PropTypes.oneOfType([
+//     PropTypes.func,
+//     PropTypes.arrayOf(PropTypes.shape({
+//       date: PropTypes.oneOfType([
+//         PropTypes.string,
+//         PropTypes.instanceOf(Date),
+//         PropTypes.instanceOf(moment)
+//       ]),
+//       containerStyle: ViewPropTypes,
+//       style: ViewPropTypes,
+//       textStyle: Text.propTypes.style,
+//     })),
+//   ]),
+//   disabledDates: PropTypes.oneOfType([PropTypes.array, PropTypes.func]),
+//   disabledDatesTextStyle: Text.propTypes.style,
+//   minRangeDuration: PropTypes.oneOfType([PropTypes.array, PropTypes.number]),
+//   maxRangeDuration: PropTypes.oneOfType([PropTypes.array, PropTypes.number]),
+// };
