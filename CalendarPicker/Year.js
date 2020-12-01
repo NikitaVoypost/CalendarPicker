@@ -4,7 +4,6 @@ import {
   Text,
   TouchableOpacity
 } from 'react-native';
-import PropTypes from 'prop-types';
 import moment from 'moment';
 
 export default function Year(props) {
@@ -66,9 +65,3 @@ export default function Year(props) {
     </View>
   );
 }
-
-Year.propTypes = {
-  styles: PropTypes.shape({}),
-  year: PropTypes.number,
-  onSelectYear: PropTypes.func,
-};

@@ -1,6 +1,5 @@
 import React from 'react';
 import { View } from 'react-native';
-import PropTypes from 'prop-types';
 import Month from './Month';
 
 
@@ -49,10 +48,3 @@ export default function MonthsGridView(props) {
     </View>
   );
 }
-
-MonthsGridView.propTypes = {
-  styles: PropTypes.shape(),
-  currentYear: PropTypes.number.isRequired,
-  months: PropTypes.array,
-  onSelectMonth: PropTypes.func,
-};

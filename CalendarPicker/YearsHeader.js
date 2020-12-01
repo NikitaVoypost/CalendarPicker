@@ -4,7 +4,6 @@ import {
   Text,
   Platform,
 } from 'react-native';
-import PropTypes from 'prop-types';
 import Controls from './Controls';
 
 export default function YearsHeader(props) {
@@ -59,11 +58,3 @@ export default function YearsHeader(props) {
     </View>
   );
 }
-
-YearsHeader.propTypes = {
-  styles: PropTypes.shape(),
-  textStyle: Text.propTypes.style,
-  title: PropTypes.string,
-  onYearViewNext: PropTypes.func,
-  onYearViewPrevious: PropTypes.func,
-};

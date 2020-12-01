@@ -12,18 +12,6 @@ import { RecyclerListView, DataProvider, LayoutProvider } from 'recyclerlistview
 import moment from 'moment';
 
 export default class CalendarScroller extends Component {
-  static propTypes = {
-    data: PropTypes.array.isRequired,
-    initialRenderIndex: PropTypes.number,
-    renderMonth: PropTypes.func,
-    renderMonthParams: PropTypes.object.isRequired,
-    minDate: PropTypes.any,
-    maxDate: PropTypes.any,
-    maxSimultaneousMonths: PropTypes.number,
-    horizontal: PropTypes.bool,
-    updateMonthYear: PropTypes.func,
-    onMonthChange: PropTypes.func,
-  }
 
   static defaultProps = {
     data: [],

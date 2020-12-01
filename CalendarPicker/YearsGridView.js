@@ -1,6 +1,5 @@
 import React from 'react';
 import { View } from 'react-native';
-import PropTypes from 'prop-types';
 import Year from './Year';
 
 
@@ -48,9 +47,3 @@ export default function YearsGridView(props) {
     </View>
   );
 }
-
-YearsGridView.propTypes = {
-  styles: PropTypes.shape(),
-  intialYear: PropTypes.number.isRequired,
-  onSelectYear: PropTypes.func,
-};

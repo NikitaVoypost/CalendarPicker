@@ -228,12 +228,3 @@ export default function Day(props) {
 Day.defaultProps = {
   customDatesStyles: [],
 };
-
-Day.propTypes = {
-  styles: PropTypes.shape({}),
-  day: PropTypes.number,
-  onPressDay: PropTypes.func,
-  disabledDates: PropTypes.oneOfType([PropTypes.array, PropTypes.func]),
-  minRangeDuration: PropTypes.oneOfType([PropTypes.array, PropTypes.number]),
-  maxRangeDuration: PropTypes.oneOfType([PropTypes.array, PropTypes.number]),
-};

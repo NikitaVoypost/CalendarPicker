@@ -4,7 +4,6 @@ import {
   TouchableOpacity,
   Text,
 } from 'react-native';
-import PropTypes from 'prop-types';
 
 export default function Controls(props) {
   const {
@@ -33,9 +32,3 @@ export default function Controls(props) {
     </TouchableOpacity>
   );
 }
-
-Controls.propTypes = {
-  styles: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
-  label: PropTypes.string,
-  onPressControl: PropTypes.func.isRequired,
-};

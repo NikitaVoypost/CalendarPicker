@@ -3,7 +3,6 @@ import {
   View,
   Text,
 } from 'react-native';
-import PropTypes from 'prop-types';
 import { Utils } from './Utils';
 
 export default function Weekdays(props) {
@@ -47,9 +46,3 @@ export default function Weekdays(props) {
     </View>
   );
 }
-
-Weekdays.propTypes = {
-  startFromMonday: PropTypes.bool,
-  weekdays: PropTypes.array,
-  customDayHeaderStyles: PropTypes.func,
-};

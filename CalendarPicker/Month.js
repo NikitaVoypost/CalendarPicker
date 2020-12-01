@@ -4,7 +4,6 @@ import {
   Text,
   TouchableOpacity
 } from 'react-native';
-import PropTypes from 'prop-types';
 import { Utils } from './Utils';
 
 export default function Month(props) {
@@ -67,10 +66,3 @@ export default function Month(props) {
     </View>
   );
 }
-
-Month.propTypes = {
-  styles: PropTypes.shape({}),
-  currentMonth: PropTypes.number,
-  currentYear: PropTypes.number,
-  onSelectMonth: PropTypes.func,
-};

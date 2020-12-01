@@ -4,7 +4,6 @@ import {
   Text,
   Platform,
 } from 'react-native';
-import PropTypes from 'prop-types';
 
 export default function MonthsHeader(props) {
   const {
@@ -27,9 +26,3 @@ export default function MonthsHeader(props) {
     </View>
   );
 }
-
-MonthsHeader.propTypes = {
-  styles: PropTypes.shape(),
-  textStyle: Text.propTypes.style,
-  title: PropTypes.string
-};

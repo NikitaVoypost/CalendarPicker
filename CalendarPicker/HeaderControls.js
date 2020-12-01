@@ -5,7 +5,6 @@ import {
   Platform,
   TouchableOpacity
 } from 'react-native';
-import PropTypes from 'prop-types';
 import { Utils } from './Utils';
 import Controls from './Controls';
 
@@ -77,12 +76,3 @@ export default function HeaderControls(props) {
     </View>
   );
 }
-
-HeaderControls.propTypes = {
-  currentMonth: PropTypes.number,
-  currentYear: PropTypes.number,
-  onPressNext: PropTypes.func,
-  onPressPrevious: PropTypes.func,
-  onPressMonth: PropTypes.func,
-  onPressYear: PropTypes.func,
-};
