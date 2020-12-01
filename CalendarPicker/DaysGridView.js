@@ -9,9 +9,9 @@ import EmptyDay from './EmptyDay';
 import { Utils } from './Utils';
 import moment from 'moment';
 
-const ViewPropTypes = PropTypes.shape({
-  style: PropTypes.any,
-});
+// const ViewPropTypes = PropTypes.shape({
+//   style: PropTypes.any,
+// });
 
 export default class DaysGridView extends Component {
   constructor(props) {
